@@ -1,0 +1,15 @@
+<launch>
+
+	<!-- run guidance_nav -->
+	<node pkg="guidance_nav" type="guidance_nav" name="guidance_nav" output="screen">
+  <param name="spin_rate"           type="int"    value="50"/>
+	<param name="xy_err_tolerence"    type="double"  value="0.1"/>
+	<param name="z_err_tolerence"     type="double"  value="0.1"/>
+	<param name="yaw_err_tolerence"   type="double"  value="0.1"/>
+	<param name="pid_param_file"      type="string"  value="$(find guidance_nav)/config/pid.yaml"/>
+	<!--
+	<rosparam command="load" file="$(find guidance_nav)/config/pid.yaml" />
+	-->
+	</node>
+
+</launch>

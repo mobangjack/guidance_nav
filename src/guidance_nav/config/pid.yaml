@@ -1,0 +1,6 @@
+%YAML:1.0
+pid:
+ - {kp: 1.0, ki: 0, kd: 0, db: 0, it: 0, Emax: 10, Pmax: 10, Imax: 10, Dmax: 10, Omax: 10} # xy
+ - {kp: 1.0, ki: 0, kd: 0, db: 0, it: 0, Emax: 10, Pmax: 10, Imax: 10, Dmax: 10, Omax: 10} # z
+ - {kp: 1.0, ki: 0, kd: 0, db: 0, it: 0, Emax: 10, Pmax: 10, Imax: 10, Dmax: 10, Omax: 10} # yaw
+
